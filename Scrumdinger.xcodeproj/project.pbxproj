@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8E773F0B2A4482780023B1E4 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E773F0A2A4482780023B1E4 /* ScrumdingerApp.swift */; };
-		8E773F0D2A4482780023B1E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E773F0C2A4482780023B1E4 /* ContentView.swift */; };
+		8E773F0D2A4482780023B1E4 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E773F0C2A4482780023B1E4 /* MeetingView.swift */; };
 		8E773F0F2A44827A0023B1E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E773F0E2A44827A0023B1E4 /* Assets.xcassets */; };
 		8E773F132A44827A0023B1E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E773F122A44827A0023B1E4 /* Preview Assets.xcassets */; };
+		8E773F1B2A4495BC0023B1E4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E773F1A2A4495BC0023B1E4 /* Theme.swift */; };
+		8E773F1D2A4561C90023B1E4 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E773F1C2A4561C90023B1E4 /* DailyScrum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8E773F072A4482780023B1E4 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E773F0A2A4482780023B1E4 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
-		8E773F0C2A4482780023B1E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E773F0C2A4482780023B1E4 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		8E773F0E2A44827A0023B1E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E773F102A44827A0023B1E4 /* Scrumdinger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Scrumdinger.entitlements; sourceTree = "<group>"; };
 		8E773F122A44827A0023B1E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E773F1A2A4495BC0023B1E4 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		8E773F1C2A4561C90023B1E4 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,9 @@
 		8E773F092A4482780023B1E4 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				8E773F192A4495A10023B1E4 /* Models */,
 				8E773F0A2A4482780023B1E4 /* ScrumdingerApp.swift */,
-				8E773F0C2A4482780023B1E4 /* ContentView.swift */,
+				8E773F0C2A4482780023B1E4 /* MeetingView.swift */,
 				8E773F0E2A44827A0023B1E4 /* Assets.xcassets */,
 				8E773F102A44827A0023B1E4 /* Scrumdinger.entitlements */,
 				8E773F112A44827A0023B1E4 /* Preview Content */,
@@ -67,6 +72,15 @@
 				8E773F122A44827A0023B1E4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E773F192A4495A10023B1E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E773F1A2A4495BC0023B1E4 /* Theme.swift */,
+				8E773F1C2A4561C90023B1E4 /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E773F0D2A4482780023B1E4 /* ContentView.swift in Sources */,
+				8E773F1D2A4561C90023B1E4 /* DailyScrum.swift in Sources */,
+				8E773F1B2A4495BC0023B1E4 /* Theme.swift in Sources */,
+				8E773F0D2A4482780023B1E4 /* MeetingView.swift in Sources */,
 				8E773F0B2A4482780023B1E4 /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
